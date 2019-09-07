@@ -30,7 +30,7 @@ $data='<table class="table table-bordered table-striped">
   if(mysqli_num_rows($result)>0)
   {
 $number=1;
-
+//comment
 while($row=mysqli_fetch_assoc($result))
 {
 	$a = "30";
